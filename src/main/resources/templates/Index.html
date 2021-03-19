@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head><meta charset="UTF-8">
+		<title>JPA-SELECT</title>
+	</head>
+	<body>
+		<ul>
+			<li><a th:href="@{/select}">全検索</a></li>
+			<li><a th:href="@{/select/primary}">主キーで検索</a></li>
+			<li><a th:href="@{/select/other}">任意の列で検索</a></li>
+			<li><a th:href="@{/select/greater}">以上</a></li>
+			<li><a th:href="@{/select/like}">LIKE</a></li>
+			<li><a th:href="@{/select/contain}">含む</a></li>
+			<li><a th:href="@{/select/and}">AND条件</a></li>
+			<li><a th:href="@{/select/sort}">ソート</a></li>
+			<li><a th:href="@{/select/onlycolumn}">特定の列だけ</a></li>
+			<li><a th:href="@{/select/other}">重複除去</a></li>
+			<li><a th:href="@{/select/custom}">自作</a></li>
+		</ul>
+	</body>
+</html>
